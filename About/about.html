@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="about.css"> <!-- External CSS dosyasını ekledik -->
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-dark text-white text-center p-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark px-2">
+            <a class="navbar-brand d-flex align-items-center text-white" href="/Home/home.html">
+                <!-- text-white eklendi -->
+                <img src="/Img/Logo.png" width="50" height="50" class="d-inline-block mx-3" alt="Firma Logo">
+                <span class="brand-name">Company Name</span>
+            </a>
+            <!-- Toggler Button (Küçük ekranlar için menüyü açar) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Home/home.html">Home</a> <!-- text-white eklendi -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Movies/movies.html">Movies</a>
+                        <!-- text-white eklendi -->
+                    </li>
+                    <li class="nav-item"><strong><a class="nav-link text-white" href="/About/about.html">About
+                                Us</a></strong>
+                        <!-- text-white eklendi -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Contact/contact.html">Contact Us</a>
+                        <!-- text-white eklendi -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="container my-5">
+        <h1 class="text-center mb-4">About Us</h1>
+
+        <!-- Example introduction text -->
+        <p class="text-left mb-4">
+            Welcome to our company, where passion for cinema meets innovation. Our mission is to provide high-quality
+            entertainment experiences to audiences worldwide. Discover more about our vision and mission below.
+        </p>
+
+        <!-- Vision -->
+        <div class="mb-5">
+            <h2>Our Vision</h2>
+            <img src="/Img/about_us_image.jpg" class="img-fluid rounded mb-3" alt="Our Vision">
+            <p>
+                Our vision is to become one of the largest platforms in the world of cinema, offering unique experiences
+                to both movie lovers and filmmakers. In the future, we aspire to continue touching the hearts of viewers
+                through creative stories and innovative productions, inspiring on a global scale.
+            </p>
+            <p>
+                We aim to create a community that nurtures the love of cinema in every viewer and brings people
+                together.
+                By providing a platform for new filmmakers, we hope to share the art of cinema with the world and
+                produce
+                high-quality content that resonates with all audiences.
+            </p>
+        </div>
+
+        <!-- Mission -->
+        <div>
+            <h2>Our Mission</h2>
+            <img src="/Img/our_values_image.jpg" class="img-fluid rounded mb-3" alt="Our Mission">
+            <p>
+                Our mission is to deliver innovative content in the world of cinema and to create opportunities for
+                visionary directors to provide unforgettable experiences to our audience. We strive to bring together
+                different cultures and perspectives, showing how cinema can unite people globally.
+            </p>
+            <p>
+                Additionally, we aim to offer a wide range of content that is accessible to all audiences and to use the
+                power of cinema to create cultural and societal impact. We are committed to quality, diversity, and
+                accessibility in everything we do.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Film Producer. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
